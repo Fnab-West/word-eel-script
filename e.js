@@ -6,7 +6,7 @@ var rows = 6;
 var marge = 0;
 var list = [];
 var bod = document.createElement("div");
-bod.style.backgroundColor = "#cecece"
+bod.style.backgroundColor = "#808080"
 document.body.appendChild(bod);
 var list = document.createElement("ul");
 list.style.listStyleType = "none";
