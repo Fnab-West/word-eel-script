@@ -9,6 +9,10 @@ var bod = document.createElement("div");
 bod.style.backgroundColor = "#FAF9F6"
 document.body.appendChild(bod);
 bod.style.width= "fit-content";
+var header = document.createElement("h2");
+header.style.fontSize = "30%";
+header.innerHTML = "Word-eel";
+bod.appendChild(header);
 var list = document.createElement("ul");
 list.style.listStyleType = "none";
 list.style.margin = 0;
