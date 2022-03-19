@@ -8,6 +8,7 @@ var list = [];
 var bod = document.createElement("div");
 document.body.appendChild(bod);
 var list = document.createElement("ul");
+list.style.listStyleType = "none";
 bod.appendChild(list);
 for(var i = 0;i < length;i++){
   list[i] = [];
@@ -18,5 +19,6 @@ for(var i = 0;i < length;i++){
   text.innerHTML = list[i].join("");
   
   list.appendChild(text);
+  
   marge -= space;
 }
