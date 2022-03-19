@@ -7,7 +7,6 @@ var marge = 0;
 var list = [];
 var bod = document.createElement("div");
 document.body.appendChild(bod);
-bod.style.width = 33%;
 for(var i = 0;i < length;i++){
   list[i] = [];
   for(var e = 0;e<rows;e++){
