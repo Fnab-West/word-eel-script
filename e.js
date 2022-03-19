@@ -47,8 +47,7 @@ window.addEventListener("keydown", function(e) {
     key = e.keyCode;
     var keyThing = String.fromCharCode(key);
     if(key != 8){
-      var stringg = listelements[0].innerHTML;
-      stringg = replaceAt(stringg,1,keyThing);
-      listelements[0].innerHTML = stringg;
+      const keyName = event.key;
+      alert('keydown event\n\n' + 'key: ' + keyName);
     }
   })
