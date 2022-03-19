@@ -7,14 +7,16 @@ var marge = 0;
 var list = [];
 var bod = document.createElement("div");
 document.body.appendChild(bod);
+var list = document.createElement("ul");
+bod.appendChild(list);
 for(var i = 0;i < length;i++){
   list[i] = [];
   for(var e = 0;e<rows;e++){
     list[i][e] = filler;
   }
-  var text = document.createElement("b");
+  var text = document.createElement("li");
   text.innerHTML = list[i].join("");
-  text.style.verticalAlign = marge.toString() + "px";
-  bod.appendChild(text);
+  
+  list.appendChild(text);
   marge -= space;
 }
