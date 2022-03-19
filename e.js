@@ -16,4 +16,5 @@ for(var i = 0;i < length;i++){
   text.innerHTML = list[i].join("");
   text.style.bottom = marge.toString() + "px";
   bod.appendChild(text);
+  marge -= 10;
 }
