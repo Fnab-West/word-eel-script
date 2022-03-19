@@ -10,8 +10,8 @@ bod.style.backgroundColor = "#FAF9F6"
 document.body.appendChild(bod);
 bod.style.width= "fit-content";
 bod.style.postion = "absolute";
-bod.style.left = "100px";
-bod.style.top = "100px";
+bod.style.left = "33%";
+bod.style.top = "33%";
 var header = document.createElement("h2");
 header.style.fontSize = "100%";
 header.innerHTML = "Word-eel";
