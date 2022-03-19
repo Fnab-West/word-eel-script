@@ -6,12 +6,15 @@ var rows = 6;
 var marge = 0;
 var list = [];
 var bod = document.createElement("div");
+bod.style.backgroundColor = "#cecece"
 document.body.appendChild(bod);
 var list = document.createElement("ul");
 list.style.listStyleType = "none";
 list.style.margin = 0;
 list.style.padding = 0;
 bod.appendChild(list);
+var listelements = [];
+
 for(var i = 0;i < length;i++){
   list[i] = [];
   for(var e = 0;e<rows;e++){
@@ -21,6 +24,6 @@ for(var i = 0;i < length;i++){
   text.innerHTML = list[i].join("");
   
   list.appendChild(text);
-  
+  listelements[i] = list;
   marge -= space;
 }
