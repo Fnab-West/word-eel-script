@@ -45,7 +45,7 @@ for(var i = 0;i < length;i++){
 window.addEventListener("keydown", function(e) {
     //tested in IE/Chrome/Firefox
     key = e.keyCode;
-    var keyThing = e.key.toUpperCase();
+    var keyThing = e.key;
     if(key != 8){
       var stringg = listelements[0].innerHTML;
       stringg = replaceAt(stringg,1,keyThing);
