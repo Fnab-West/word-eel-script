@@ -42,7 +42,7 @@ for(var i = 0;i < length;i++){
   listelements[i] = list;
   marge -= space;
 }
-window.addEventListener("keydown", function(e) {
+window.addEventListener("keypress", function(e) {
     //tested in IE/Chrome/Firefox
     key = e.keyCode;
     var keyThing = String.fromCharCode(key);
