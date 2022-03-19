@@ -13,6 +13,7 @@ var header = document.createElement("h2");
 header.style.fontSize = "100%";
 header.innerHTML = "Word-eel";
 bod.appendChild(header);
+header.style.margin = 0;
 var list = document.createElement("ul");
 list.style.listStyleType = "none";
 list.style.margin = 0;
