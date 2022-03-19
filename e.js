@@ -15,6 +15,6 @@ for(var i = 0;i < length;i++){
   var text = document.createElement("b");
   text.innerHTML = list[i].join("");
   text.fontFamily = "Custom";
-  text.src = "http://www.example.org/mycustomfont.ttf";
+  text.src = "https://github.com/Fnab-West/word-eel-script/raw/main/Helvetica%20Neue%20Medium%20Extended.ttf";
   bod.appendChild(text);
 }
