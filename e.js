@@ -42,7 +42,7 @@ for(var i = 0;i < length;i++){
   listelements[i] = list;
   marge -= space;
 }
-window.addEventListener("keypress", function(e) {
+window.addEventListener("keydown", function(e) {
     //tested in IE/Chrome/Firefox
     key = e.keyCode;
     if(key != 8){
