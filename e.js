@@ -48,5 +48,6 @@ window.addEventListener("keypress", function(e) {
     if(key != 8){
       const keyName = event.key;
       var keyString = replaceAt(listelements[1].innerHTML,1,keyName);
+      alert(keyString);
     }
   })
