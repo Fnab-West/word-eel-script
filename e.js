@@ -45,9 +45,8 @@ for(var i = 0;i < length;i++){
 window.addEventListener("keypress", function(e) {
     //tested in IE/Chrome/Firefox
     key = e.keyCode;
-    var keyThing = String.fromCharCode(key);
     if(key != 8){
       const keyName = event.key;
-      alert('keydown event\n\n' + 'key: ' + keyName);
+      var keyString = replaceAt(listelements[1].innerHTML,1,keyName);
     }
   })
