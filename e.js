@@ -8,6 +8,7 @@ var list = [];
 var bod = document.createElement("div");
 bod.style.backgroundColor = "#808080"
 document.body.appendChild(bod);
+bod.style.display = "inline-block";
 var list = document.createElement("ul");
 list.style.listStyleType = "none";
 list.style.margin = 0;
