@@ -16,5 +16,5 @@ for(var i = 0;i < length;i++){
   text.innerHTML = list[i].join("");
   text.style.verticalAlign = marge.toString() + "px";
   bod.appendChild(text);
-  marge -= 10;
+  marge -= space;
 }
