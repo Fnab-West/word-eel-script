@@ -9,6 +9,8 @@ var bod = document.createElement("div");
 document.body.appendChild(bod);
 var list = document.createElement("ul");
 list.style.listStyleType = "none";
+list.style.margin = 0;
+list.style.padding = 0;
 bod.appendChild(list);
 for(var i = 0;i < length;i++){
   list[i] = [];
