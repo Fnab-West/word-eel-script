@@ -11,7 +11,7 @@ document.body.appendChild(bod);
 bod.style.width= "fit-content";
 bod.style.postion = "absolute";
 bod.style.right = "0px";
-bod.style.top = 0;
+bod.style.top = "100px";
 var header = document.createElement("h2");
 header.style.fontSize = "100%";
 header.innerHTML = "Word-eel";
