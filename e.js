@@ -48,7 +48,7 @@ window.addEventListener("keydown", function(e) {
     var keyThing = e.key.toString();
     if(key != 8){
       var stringg = listelements[0].innerHTML;
-      stringg = replaceAt(stringg,tries,keyThing);
+      stringg = replaceAt(stringg,1,keyThing);
       listelements[0].innerHTML = stringg;
     }
   })
