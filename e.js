@@ -14,7 +14,7 @@ for(var i = 0;i < length;i++){
   }
   var text = document.createElement("b");
   text.innerHTML = list[i].join("");
-  text.style.bottom = marge.toString() + "px";
+  text.style.verticalAlign = marge.toString() + "px";
   bod.appendChild(text);
   marge -= 10;
 }
